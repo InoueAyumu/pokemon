@@ -22,7 +22,7 @@ struct ContentView: View {
     var body: some View {
         //ナビゲーションの設定
         NavigationStack {
-            Text("一覧")
+            Text("ポケモン一覧")
             //テキストのサイズを調整
                 .frame(width: 400, height: 40)
             //上下左右に間隔を広げ、テキストの余白を調整
